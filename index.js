@@ -9,7 +9,7 @@ function displayTable() {
                         <td data-title="خضار" >
                             <img src="new images/زهرة.png" alt="Alisha Roy">
                             <p style="font-size: 30px;">خس</p>
-                            <p style="font-size: 30px;">السعر <span id="5s1-price">5</span>$ لكل كيلو</p>
+                            <p style="font-size: 30px;">السعر <span id="5s1-price">5</span>$ لكل حزمة</p>
                             <div style="font-size: 30px;">
                                 <button onclick="increaseQuantity('5s1','5s1-price')">+</button>
                                 <span id="5s1">1</span>
@@ -38,7 +38,7 @@ function displayTable() {
                         </td>
                         <td data-title="البان"><img src="Milk/بوك1.png" alt="20">
                             <p style="font-size: 30px;">حليب</p>
-                            <p style="font-size: 30px;">السعر <span id="milk1-price">5</span>$ لكل كيلو</p>
+                            <p style="font-size: 30px;">السعر <span id="milk1-price">5</span>$ لكل زجاجة</p>
                             <div style="font-size: 30px;">
                                 <button onclick="increaseQuantity('milk1','milk1-price')">+</button>
                                 <span id="milk1">1</span>
@@ -47,7 +47,7 @@ function displayTable() {
                         </td>
                         <td data-title="معلبات"><img src="new images/كولا.png" alt="Kerala">
                             <p style="font-size: 30px;">كوكاكولا</p>
-                            <p style="font-size: 30px;">السعر <span id="coca1-price">5</span>$ لكل كيلو</p>
+                            <p style="font-size: 30px;">السعر <span id="coca1-price">5</span>$ لكل علبة</p>
                             <div style="font-size: 30px;">
                                <button onclick="increaseQuantity('coca1','coca1-price')">+</button>
                                 <span id="coca1">1</span>
@@ -56,7 +56,7 @@ function displayTable() {
                         </td>
                         <td data-title="خبز"><img src="new images/خبز1.png" alt="abc@gmail.com">
                             <p style="font-size: 30px;">خبز</p>
-                            <p style="font-size: 30px;">السعر <span id="bread1-price">5</span>$ لكل كيلو</p>
+                            <p style="font-size: 30px;">السعر <span id="bread1-price">5</span>$ لكل كيس</p>
                             <div style="font-size: 30px;">
                                 <button onclick="increaseQuantity('bread1','bread1-price')">+</button>
                                 <span id="bread1">1</span>
@@ -65,7 +65,7 @@ function displayTable() {
                         </td>
                         <td data-title="منظفات"><img src="Detergent/5.jpg" alt="9876543456">
                             <p style="font-size: 30px;">مسحوق غسيل</p>
-                            <p style="font-size: 30px;">السعر <span id="detergent1-price">5</span>$ لكل كيلو</p>
+                            <p style="font-size: 30px;">السعر <span id="detergent1-price">5</span>$ لكل قطعة</p>
                             <div style="font-size: 30px;">
                                 <button onclick="increaseQuantity('detergent1','detergent1-price')">+</button>
                                 <span id="detergent1">1</span>
@@ -103,7 +103,7 @@ function displayTable() {
                         </td>
                         <td data-title="البان"><img src="Milk/بوك1.png" alt="20">
                             <p style="font-size: 30px;">حليب</p>
-                            <p style="font-size: 30px;">السعر <span id="milk2-price">5</span>$ لكل كيلو</p>
+                            <p style="font-size: 30px;">السعر <span id="milk2-price">5</span>$ لكل علبة</p>
                             <div style="font-size: 30px;">
                                 <button onclick="increaseQuantity('milk2','milk2-price')">+</button>
                                 <span id="milk2">1</span>
@@ -112,7 +112,7 @@ function displayTable() {
                         </td>
                         <td data-title="معلبات"><img src="new images/كولا.png" alt="Kerala">
                             <p style="font-size: 30px;">كوكاكولا</p>
-                            <p style="font-size: 30px;">السعر <span id="coca2-price">5</span>$ لكل كيلو</p>
+                            <p style="font-size: 30px;">السعر <span id="coca2-price">5</span>$ لكل علبة</p>
                             <div style="font-size: 30px;">
                                 <button onclick="increaseQuantity('coca2','coca2-price')">+</button>
                                 <span id="coca2">1</span>
@@ -121,7 +121,7 @@ function displayTable() {
                         </td>
                         <td data-title="خبز"><img src="new images/خبز2.png" alt="abc@gmail.com">
                             <p style="font-size: 30px;">خبز</p>
-                            <p style="font-size: 30px;">السعر <span id="bread2-price">5</span>$ لكل كيلو</p>
+                            <p style="font-size: 30px;">السعر <span id="bread2-price">5</span>$ لكل كيس</p>
                             <div style="font-size: 30px;">
                                 <button onclick="increaseQuantity('bread2','bread2-price')">+</button>
                                 <span id="bread2">1</span>
@@ -130,7 +130,7 @@ function displayTable() {
                         </td>
                         <td data-title="منظفات"><img src="Detergent/4.jpg" alt="9876543456">
                             <p style="font-size: 30px;">مسحوق غسيل</p>
-                            <p style="font-size: 30px;">السعر <span id="detergent2-price">5</span>$ لكل كيلو</p>
+                            <p style="font-size: 30px;">السعر <span id="detergent2-price">5</span>$ لكل قطعه</p>
                             <div style="font-size: 30px;">
                                 <button onclick="increaseQuantity('detergent2','detergent2-price')">+</button>
                                 <span id="detergent2">1</span>
@@ -141,7 +141,7 @@ function displayTable() {
                     <tr>
                         <td data-title="خضار"><img src="new images/خس.png" alt="Alisha Roy">
                             <p style="font-size: 30px;">خس</p>
-                            <p style="font-size: 30px;">السعر <span id="5s2-price">5</span>$ لكل كيلو</p>
+                            <p style="font-size: 30px;">السعر <span id="5s2-price">5</span>$ لكل حزمة</p>
                             <div style="font-size: 30px;">
                                 <button onclick="increaseQuantity('5s2','5s2-price')">+</button>
                                 <span id="5s2">1</span>
@@ -168,7 +168,7 @@ function displayTable() {
                         </td>
                         <td data-title="البان"><img src="Milk/بوك1.png" alt="20">
                             <p style="font-size: 30px;">حليب</p>
-                            <p style="font-size: 30px;">السعر <span id="milk3-price">5</span>$ لكل كيلو</p>
+                            <p style="font-size: 30px;">السعر <span id="milk3-price">5</span>$ لكل علبة</p>
                             <div style="font-size: 30px;">
                                 <button onclick="increaseQuantity('milk3','milk3-price')">+</button>
                                 <span id="milk3">1</span>
@@ -177,7 +177,7 @@ function displayTable() {
                         </td>
                         <td data-title="معلبات"><img src="new images/كولا.png" alt="Kerala">
                             <p style="font-size: 30px;">كوكاكولا</p>
-                            <p style="font-size: 30px;">السعر <span id="coca3-price">5</span>$ لكل كيلو</p>
+                            <p style="font-size: 30px;">السعر <span id="coca3-price">5</span>$ لكل علبة</p>
                             <div style="font-size: 30px;">
                                 <button onclick="increaseQuantity('coca3','coca3-price')">+</button>
                                 <span id="coca3">1</span>
@@ -186,7 +186,7 @@ function displayTable() {
                         </td>
                         <td data-title="خبز"><img src="new images/خبز3.png" alt="abc@gmail.com">
                             <p style="font-size: 30px;">خبز</p>
-                            <p style="font-size: 30px;">السعر <span id="bread3-price">5</span>$ لكل كيلو</p>
+                            <p style="font-size: 30px;">السعر <span id="bread3-price">5</span>$ لكل كيس</p>
                             <div style="font-size: 30px;">
                                 <button onclick="increaseQuantity('bread3','bread3-price')">+</button>
                                 <span id="bread3">1</span>
@@ -195,7 +195,7 @@ function displayTable() {
                         </td>
                         <td data-title="منظفات"><img src="Detergent/3.jpg" alt="9876543456">
                             <p style="font-size: 30px;">مسحوق غسيل</p>
-                            <p style="font-size: 30px;">السعر <span id="detergent3-price">5</span>$ لكل كيلو</p>
+                            <p style="font-size: 30px;">السعر <span id="detergent3-price">5</span>$ لكل قطعة</p>
                             <div style="font-size: 30px;">
                                 <button onclick="increaseQuantity('detergent3','detergent3-price')">+</button>
                                 <span id="detergent3">1</span>
@@ -233,7 +233,7 @@ function displayTable() {
                         </td>
                         <td data-title="البان"><img src="Milk/بوك1.png" alt="20">
                             <p style="font-size: 30px;">حليب</p>
-                            <p style="font-size: 30px;">السعر <span id="milk4-price">5</span>$ لكل كيلو</p>
+                            <p style="font-size: 30px;">السعر <span id="milk4-price">5</span>$ لكل زجاجة</p>
                             <div style="font-size: 30px;">
                                 <button onclick="increaseQuantity('milk4','milk4-price')">+</button>
                                 <span id="milk4">1</span>
@@ -242,7 +242,7 @@ function displayTable() {
                         </td>
                         <td data-title="معلبات"><img src="new images/كولا.png" alt="Kerala">
                             <p style="font-size: 30px;">كوكاكولا</p>
-                            <p style="font-size: 30px;">السعر <span id="coca4-price">5</span>$ لكل كيلو</p>
+                            <p style="font-size: 30px;">السعر <span id="coca4-price">5</span>$ لكل علبة</p>
                             <div style="font-size: 30px;">
                                 <button onclick="increaseQuantity('coca4','coca4-price')">+</button>
                                 <span id="coca4">1</span>
@@ -251,7 +251,7 @@ function displayTable() {
                         </td>
                         <td data-title="خبز"><img src="new images/خبز2.png" alt="abc@gmail.com">
                             <p style="font-size: 30px;">خبز</p>
-                            <p style="font-size: 30px;">السعر <span id="bread4-price">5</span>$ لكل كيلو</p>
+                            <p style="font-size: 30px;">السعر <span id="bread4-price">5</span>$ لكل كيس</p>
                             <div style="font-size: 30px;">
                                 <button onclick="increaseQuantity('bread4','bread4-price')">+</button>
                                 <span id="bread4">1</span>
@@ -260,7 +260,7 @@ function displayTable() {
                         </td>
                         <td data-title="منظفات"><img src="Detergent/2.jpg" alt="9876543456">
                             <p style="font-size: 30px;">مسحوق غسيل</p>
-                            <p style="font-size: 30px;">السعر <span id="detergent4-price">5</span>$ لكل كيلو</p>
+                            <p style="font-size: 30px;">السعر <span id="detergent4-price">5</span>$ لكل قطعة</p>
                             <div style="font-size: 30px;">
                                 <button onclick="increaseQuantity('detergent4','detergent4-price')">+</button>
                                 <span id="detergent4">1</span>
@@ -298,7 +298,7 @@ function displayTable() {
                         </td>
                         <td data-title="البان"><img src="Milk/بوك1.png" alt="20">
                             <p style="font-size: 30px;">حليب</p>
-                            <p style="font-size: 30px;">السعر <span id="milk5-price">5</span>$ لكل كيلو</p>
+                            <p style="font-size: 30px;">السعر <span id="milk5-price">5</span>$ لكل علبة</p>
                             <div style="font-size: 30px;">
                                 <button onclick="increaseQuantity('milk5','milk5-price')">+</button>
                                 <span id="milk5">1</span>
@@ -307,7 +307,7 @@ function displayTable() {
                         </td>
                         <td data-title="معلبات"><img src="new images/كولا.png" alt="Kerala">
                             <p style="font-size: 30px;">كوكاكولا</p>
-                            <p style="font-size: 30px;">السعر <span id="coca5-price">5</span>$ لكل كيلو</p>
+                            <p style="font-size: 30px;">السعر <span id="coca5-price">5</span>$ لكل علبة</p>
                             <div style="font-size: 30px;">
                                 <button onclick="increaseQuantity('coca5','coca5-price')">+</button>
                                 <span id="coca5">1</span>
@@ -316,7 +316,7 @@ function displayTable() {
                         </td>
                         <td data-title="خبز"><img src="new images/خبز3.png" alt="abc@gmail.com">
                             <p style="font-size: 30px;">خبز</p>
-                            <p style="font-size: 30px;">السعر <span id="bread5-price">5</span>$ لكل كيلو</p>
+                            <p style="font-size: 30px;">السعر <span id="bread5-price">5</span>$ لكل كيس</p>
                             <div style="font-size: 30px;">
                                 <button onclick="increaseQuantity('bread5','bread5-price')">+</button>
                                 <span id="bread5">1</span>
@@ -325,7 +325,7 @@ function displayTable() {
                         </td>
                         <td data-title="منظفات"><img src="Detergent/5.jpg" alt="9876543456">
                             <p style="font-size: 30px;">مسحوق غسيل</p>
-                            <p style="font-size: 30px;">السعر <span id="detergent5-price">5</span>$ لكل كيلو</p>
+                            <p style="font-size: 30px;">السعر <span id="detergent5-price">5</span>$ لكل قطعة</p>
                             <div style="font-size: 30px;">
                                 <button onclick="increaseQuantity('detergent5','detergent5-price')">+</button>
                                 <span id="detergent5">1</span>
